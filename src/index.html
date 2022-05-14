@@ -11,20 +11,15 @@
 
 <body>
   <!-- intento de colocar un fondo, e codigo esta mal pero lo dejo para explicacion -->
- <header id="home bg-[url('/img/og-default-image.jpeg')]">
-<!-- agrego barra de texto y botton, Holmer -->
-  <div class="container m-6 p-2 mx-auto py-8">
-    <div class="h-60">
-      <h1 class="text-6x1 font-mono text-gray-400 flex justify-center"><input type="search" placeholder="   Search your games " autofocus required id="txt_escojepokemon1"/></h1>
+  <header id="home" class="w-full h-3/4">
+    <!-- agrego barra de texto y botton, Holmer -->
+    <div class="w-full h-full flex flex-col items-center py-4 space-y-60 absolute">
+      <input class="p-3 rounded-full outline-none shadow-lg transition duration-300 focus-within:shadow-sm focus:online-none focus:ring-2 focus:w-11/12" type="search" placeholder="   Busca tu Juego  " />  
+      <button class="bg-white w-48 h-auto p-3 rounded-full text-primary font-semibold shadow-md"> Explorar mas</button>
     </div>
-  </div>
-
-  <div class="container m-6 p-2 mx-auto">
-    <div class="h-30">
-      <h1 class="text-6x1 font-mono text-red-400 text-center"><button> Explorar mas</button></h1>
+    <div class="w-full h-full bg-cover">
+      <img class="w-full h-full" src="../img/PokeballAndCards.jpg">
     </div>
-  </div>
-
   </header>
   <!-- agregan cuadros de imagenes, Holmer -->
   <section>
