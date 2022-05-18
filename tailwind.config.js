@@ -2,6 +2,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'PokemonCristal': "url('../img/PokemonCristal.png')",
+      },
       backgroundColor: theme => ({
         ...theme('colors'),
         'primary': '#CC2D4A',
