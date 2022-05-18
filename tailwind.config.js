@@ -1,9 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
         'PokemonCristal': "url('../img/PokemonCristal.png')",
+        'PokeballAndCards': "url('../img/PokeballAndCards.jpg')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),
