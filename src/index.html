@@ -23,7 +23,7 @@
   </header>
   <!-- agregan cuadros de imagenes, Holmer -->
   <section id="nuestras_recomendaciones">
-    <p class="text-3xl text-primary font-semibold mt-6 text-center ">Nuestras Recomendaciones</p>
+    <p class="text-3xl text-primary font-semibold mt-6 text-center dark:text-white">Nuestras Recomendaciones</p>
     <div class="w-auto h-80 items-center mt-6 flex space-x-4 overflow-x-auto overscroll-x-contain scrollbar">
 
       <div class="w-65 h-48 shadow-md rouded-lg flex-none">  
@@ -202,15 +202,16 @@
     </a>
   </section>
   <script>
-    const toggleBotton= document.querySelector("#toggle-dark")
     const htmlElement= document.querySelector("html")
+    const toggleBotton= document.querySelector("#toggle-dark")
 
     toggleBotton.addEventListener("click", () => toggleDarkMode())  
 
     const toggleDarkMode= () => {
+      console.log("Hola")
       htmlElement.classList.contains("dark") ?
-      htmlElement.classList.remove("dark"):
-      htmlElement.classList.add("dark")
+        htmlElement.classList.remove("dark"):
+        htmlElement.classList.add("dark")
     }
   </script>
 </body>
