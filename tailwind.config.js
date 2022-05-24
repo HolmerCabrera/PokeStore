@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         'PokemonCristal': "url('../img/PokemonCristal.png')",
         'PokeballAndCards': "url('../img/PokeballAndCards.jpg')",
+        'PokemonLegendArceus': "url('../img/PokemonLegendArceus.jpg')",
+        'LetsGoPikachuAndEevee': "url('../img/LetsGoPikachuAndEevee.png')",
+        'PokemonSwordShield': "url('../img/PokemonSwordShield.png')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),
