@@ -7,9 +7,12 @@
     <title>PokeStore</title>
 </head>
 <body>
-    <h1>Descuentos</h1>
-    <p>Calcula el valor a pagar con el descuento</p>
+    <header>
+        <h1>Descuentos</h1>
+    </header>
+    
     <section>
+        <h2>Calcula el valor a pagar con el descuento</h2>
         <form>
             <label for="ValorProducto">Escriba el precio del producto, sin descuento</label>
             <input id="ValorProducto" type="number">
@@ -17,7 +20,7 @@
             <label for="ValorDescuento">Escriba el descuento</label>
             <input id="ValorDescuento" type="number">
 
-            <button type="button" onclick="onClickCalcularDescuento()">Calcular el valor a pagar</button>
+            <button type="button" onclick="CalcularPrecioConDescuento()">Calcular el valor a pagar</button>
             <p id="Resultado"></p>
         </form>
 
