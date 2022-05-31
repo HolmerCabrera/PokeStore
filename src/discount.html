@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <title>PokeStore</title>
 </head>
-<body>
+<body class=" bg-MeowthMoney bg-cover">
     <header>
-        <h1>Descuentos</h1>
+        <h1 class="text-3xl text-blue-400 font-semibold mt-6 text-center pt-10">Descuentos</h1>
     </header>
     
     <section>
-        <h2>Calcula el valor a pagar con el descuento</h2>
+        <h2 class="text-3xl mt-6 text-center font-semibold text-white pb-40 pt-10">Calcula el valor a pagar con el descuento:</h2>
         <form>
-            <label for="ValorProducto">Escriba el precio del producto, sin descuento</label>
-            <input id="ValorProducto" type="number">
-
-            <label for="ValorDescuento">Escriba el descuento</label>
-            <input id="ValorDescuento" type="number">
-
-            <button type="button" onclick="CalcularPrecioConDescuento()">Calcular el valor a pagar</button>
-            <p id="Resultado"></p>
+            <div class=" text-center p-5">
+                <div class="text-3xl mt-6 lg:text-5xl lg:pb-4 text-white dark:text-white PX-6 flex flex-col">
+                <label for="ValorProducto">Escriba el precio del producto, sin descuento</label>
+                <input id="ValorProducto" type="number">
+                </div>
+                <div class="text-3xl mt-6 lg:text-5xl lg:pb-4 text-white dark:text-white PX-6 flex flex-col">
+                <label for="ValorDescuento">Escriba el descuento</label>
+                <input id="ValorDescuento" type="number">
+                
+                <div class="text-3xl text-primary font-semibold mt-6 lg:text-5xl lg:pb-4 dark:text-red-700 PX-6 flex flex-col">
+                <button type="button" class="bg-white w-auto h-auto p-3 lg:ml-16 rounded-full shadow-md font-semibold text-primary duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 transition-all" onclick="CalcularPrecioConDescuento()">Resultado del valor a pagar</button>
+                <p id="Resultado"></p>
+                </div>
+                    
+            </div>
         </form>
 
     </section>

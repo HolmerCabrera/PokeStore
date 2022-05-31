@@ -10,6 +10,7 @@ module.exports = {
         'LetsGoPikachuAndEevee': "url('../img/LetsGoPikachuAndEevee.png')",
         'PokemonSwordShield': "url('../img/PokemonSwordShield.png')",
         'UserPicture': "url('../img/UserPicture.jpg')",
+        'MeowthMoney': "url('../img/MeowthMoney.jpg')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),
