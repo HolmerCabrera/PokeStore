@@ -10,5 +10,5 @@ function CalcularPrecioConDescuento() {
     const ValorConDescuento =  ValorProducto-(ValorProducto*ValorDescuento/100);
     
     // Se escribe en la etiqueta que tiene el ID Resultado
-    Resultado.innerText = "El precio con descuento es $" + ValorConDescuento + " COP";
+    Resultado.innerText = "El precio con descuento es $" + Math.ceil(ValorConDescuento) + " COP";
 }
