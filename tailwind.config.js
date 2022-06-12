@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'PokemonCristal': "url('../public/img/PokemonCristal.png')",
         'PokeballAndCards': "url('../public/img/PokeballAndCards.jpg')",
+        'PokemonCristal': "url('../public/img/PokemonCristal.png')",
         'PokemonLegendArceus': "url('../public/img/PokemonLegendArceus.jpg')",
         'LetsGoPikachuAndEevee': "url('../public/img/LetsGoPikachuAndEevee.png')",
         'PokemonSwordShield': "url('../public/img/PokemonSwordShield.png')",
