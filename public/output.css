@@ -679,6 +679,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
 }
 
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
+
 .bg-PokeballAndCards {
   background-image: url('../public/img/PokeballAndCards.jpg');
 }
