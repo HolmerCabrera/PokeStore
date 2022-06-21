@@ -14,7 +14,7 @@ Puedes ver la pagina en el siguiente [enlace](https://holmercabrera.github.io/Po
 **Recomendaciones**
 
 
-## Para poder ver la pagina adecuadamente (ya que esta diseñada netamente poara poder visualizada en celular), sigue estos pasos:
+## Para poder ver la pagina adecuadamente (ya que esta diseñada netamente para poder visualizada en celular), sigue estos pasos:
 
 
 1. Cuando ingreses a la pagina presiona click derecho en tu mouse y luego escoje "inspecionar"
